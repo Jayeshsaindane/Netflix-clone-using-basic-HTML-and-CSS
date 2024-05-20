@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    height: 90vh;
+    position: relative;
+    padding-top: 15px;
+
+}
+
+.main .box {
+    height: 93vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+    position: absolute;
+    top: 0;
+
+
+
+}
+
+nav {
+    display: flex;
+    max-width: 60vw;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 62px;
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+    width: 155px;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+
+}
+
+.hero {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: "Martel Sans", sans-serif;
+    gap: 15px;
+    padding: 0 30px;
+
+
+}
+
+.hero span:nth-child(1) {
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    text-align: center;
+}
+
+.hero span:nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.hero span:nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30PX;
+    text-align: center;
+}
+
+.sepration {
+    height: 7px;
+    background-color: rgb(81, 79, 79);
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 20px;
+    border-radius: 4px;
+
+}
+
+.main input {
+
+    padding: 5px 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 14px;
+    background: rgba(23, 23, 023, 0.2);
+
+    color: white(226, 230, 233);
+    line-height: 1.5;
+
+}
+
+.btn-red-sn {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 5px 30px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    flex-wrap: wrap;
+}
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }}
+.sectext span:first-child {
+    font-size: 48px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sectext span:last-child {
+    font-size: 20px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.secimg img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+overflow: hidden;
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg video {
+    position: absolute;
+    top: 51px;
+    right: 055px;
+    width: 600x;
+    overflow: hidden;
+}
+.first-img img{
+    width: 550px;
+    position: relative;
+    z-index: 10;
+
+}
+.first-img video{
+    position: absolute;
+    top: 51px;
+    right: 055px;
+    width: 600x;
+    overflow: hidden;
+}
+
+.second {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 080vw;
+    margin: auto;
+    color: white;
+
+}
+
+.s-text span:first-child {
+    color: white;
+    font-size: 48px;
+}
+
+.s-text span:last-child {
+    color: white;
+    font-size: 24px;
+}
+
+.faq {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    /* position: relative; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 10px;
+    padding: 40px;
+    margin: auto;
+
+}
+
+.faqbox {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    /* position: relative; */
+    font-family: 'Segoe UI', "Martel Sans", sans-serif;
+    gap: 8px;
+}
+
+.faqbox span {
+    /* border: 1px solid gray; */
+    background-color: rgba(128, 128, 128, 0.384);
+    display: flex;
+    height: 80px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+}
+
+.faqbox span:hover {
+    background: rgba(57, 55, 55, 0.736);
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+.btn-red-faq {
+    background-color: red;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding: 5px 30px;
+}
+
+div input {
+    padding: 4 px 30px;
+    border: 1px solid gray;
+    border-radius: 4px;
+    font-size: 14px;
+    background: rgba(41, 40, 40, 0.2);
+    color: white;
+    line-height: 1.5;
+}
+
+.end {
+
+
+    flex-direction: column;
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+    /* position: relative; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    gap: 10px;
+}
+
+.endbox span {
+    /* border: 1px solid gray; */
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    height: 80px;
+    width: 900px;
+
+    /* justify-content: center; */
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Segoe UI';
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+color: white;
+max-width: auto;
+
+}
+@media screen and (max-width:1300px){
+    .footer{
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       gap :25px;
+    }
+}
+
+.footer-item a{
+    display: flex;
+    color: rgb(242, 242, 242);
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+transition:  all 1s ease-out;
+}
+
+.call{
+color: white;
+display: flex;
+margin: 50px;
+margin-left: 100px;
+flex-direction: column;
+font-size: 24px;
+
+}
